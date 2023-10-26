@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             lb.setText("");
         }
     }
-
+// Checking the winner
     private boolean checkWinner(){
         boolean win = false;
         if (chars[0]==chars[1] && chars[0]==chars[2] && chars[0] != 0) {
